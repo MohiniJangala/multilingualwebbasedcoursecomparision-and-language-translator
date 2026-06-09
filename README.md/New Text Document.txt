@@ -156,3 +156,10 @@ Multilingual-Learning-Platform/
 
 ---
 
+## Live Demo
+
+Translation App:
+https://translation-app.onrender.com
+
+Course Comparison App:
+https://course-comparison-app.onrender.com
