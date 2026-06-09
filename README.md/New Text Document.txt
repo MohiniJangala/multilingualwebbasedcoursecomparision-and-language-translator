@@ -1,0 +1,158 @@
+# Multilingual Learning Platform
+
+## Overview
+
+The Multilingual Learning Platform is a web-based application designed to enhance online learning accessibility and decision-making. The platform integrates two major modules:
+
+1. Multilingual Video Translation System
+2. Course Comparison & Analytics Platform
+
+This system helps users translate educational video content into multiple languages and compare online courses across various learning platforms using analytics and recommendation techniques.
+
+---
+
+## Features
+
+### Multilingual Video Translation System
+
+- Video and audio processing
+- Speech-to-Text conversion
+- Multilingual translation
+- Subtitle generation
+- Improved accessibility for regional language learners
+
+### Course Comparison & Analytics Platform
+
+- Compare courses across multiple learning platforms
+- Analyze ratings, reviews, enrollments, and course quality
+- Course recommendation support
+- Interactive analytics dashboard
+- Data-driven decision making for learners
+
+---
+
+## Technologies Used
+
+### Programming Languages
+- Python
+- JavaScript
+
+### Backend
+- Flask
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+### Data Analysis & Visualization
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Machine Learning & NLP
+- Scikit-learn
+- Speech Recognition
+- Google Translator APIs
+- Natural Language Processing (NLP)
+
+### Database
+- CSV Dataset Storage
+
+### Development Tools
+- VS Code
+- Git
+- GitHub
+
+---
+
+## Project Modules
+
+### Module 1: Video Translation
+
+Functions:
+- Audio Extraction
+- Speech Recognition
+- Language Translation
+- Subtitle Generation
+
+Folder:
+```text
+translation/
+```
+
+### Module 2: Course Comparison & Analytics
+
+Functions:
+- Course Data Processing
+- Course Analytics
+- Platform Comparison
+- Recommendation Support
+
+Folder:
+```text
+video_translator/
+```
+
+---
+
+## Dataset Information
+
+The platform uses educational course datasets containing:
+
+- Course Name
+- Platform Name
+- Ratings
+- Reviews
+- Enrollments
+- Duration
+- Difficulty Level
+- Content Quality Metrics
+
+Source Platforms:
+- Coursera
+- Udemy
+- NPTEL
+- GeeksforGeeks
+- Class Central
+- W3Schools
+
+---
+
+## Project Structure
+
+```text
+Multilingual-Learning-Platform/
+│
+├── translation/
+│   ├── routes/
+│   ├── services/
+│   ├── static/
+│   ├── templates/
+│   ├── utils/
+│   └── app.py
+│
+├── video_translator/
+│   ├── static/
+│   ├── templates/
+│   ├── app.py
+│   └── dataset.csv
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Future Enhancements
+
+- AI-based personalized recommendations
+- Real-time multilingual translation
+- User authentication and profiles
+- Cloud deployment
+- Advanced analytics dashboard
+
+---
+
