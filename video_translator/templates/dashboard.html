@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e3c72;
+    font-family: Arial;
+}
+.container {
+    display: flex;
+    gap: 40px;
+}
+.card {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h2>Course Analysis</h2>
+        <button onclick="openCourse()">Open</button>
+    </div>
+    <div class="card">
+        <h2>Video Translator</h2>
+        <button onclick="openTranslator()">Open</button>
+    </div>
+</div>
+<script>
+function openCourse() {
+    window.open("http://127.0.0.1:5000");
+}
+function openTranslator() {
+    window.open("http://127.0.0.1:5001");
+}
+</script>
+</body>
+</html>

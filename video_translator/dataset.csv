@@ -1,0 +1,47 @@
+course_name,platform,rating,num_reviews,enrolled,difficulty_level,duration,content_depth_score,explanation_quality_score
+Python,Udemy,4.5,12000,50000,Beginner,40,78,8
+Python,Coursera,4.6,10000,40000,Intermediate,60,85,9
+Python,NPTEL,4.7,8000,30000,Advanced,80,90,9
+Python,GeeksforGeeks,4.3,6000,25000,Beginner,35,72,7
+Python,Class Central,4.4,5000,20000,Intermediate,50,75,8
+,,,,,,,,
+C,GeeksforGeeks,4.2,5000,20000,Beginner,30,70,7
+C,Udemy,4.3,7000,25000,Beginner,35,72,8
+C,NPTEL,4,4000,18000,Intermediate,50,80,8
+C,W3Schools,4.1,3000,15000,Beginner,25,65,7
+,,,,,,,,
+C++,GeeksforGeeks,4.3,6000,22000,Intermediate,40,75,8
+C++,Udemy,4.4,8000,30000,Intermediate,45,78,8
+C++,Coursera,4.5,7000,25000,Advanced,55,85,9
+,,,,,,,,
+Java,Udemy,4.4,11000,48000,Beginner,35,75,8
+Java,Coursera,4.5,9000,42000,Intermediate,55,82,9
+Java,NPTEL,4.6,7000,30000,Advanced,75,88,9
+Java,GeeksforGeeks,4.2,6000,25000,Beginner,30,70,7
+,,,,,,,,
+DSA,GeeksforGeeks,4.6,15000,60000,Intermediate,60,88,9
+DSA,Udemy,4.5,12000,55000,Intermediate,50,82,8
+DSA,Coursera,4.7,13000,58000,Advanced,70,90,9
+DSA,NPTEL,4.8,9000,35000,Advanced,80,92,9
+,,,,,,,,
+HTML,W3Schools,4.6,5000,30000,Beginner,20,65,7
+HTML,Udemy,4.4,7000,35000,Beginner,25,70,8
+HTML,GeeksforGeeks,4.2,6000,28000,Beginner,30,72,7
+,,,,,,,,
+CSS,W3Schools,4.3,4000,25000,Beginner,20,65,7
+CSS,Udemy,4.4,6000,30000,Beginner,25,70,8
+,,,,,,,,
+JavaScript,Udemy,4.5,12000,50000,Intermediate,40,80,8
+JavaScript,Coursera,4.6,10000,45000,Intermediate,60,85,9
+JavaScript,GeeksforGeeks,4.3,8000,35000,Beginner,35,75,7
+,,,,,,,,
+Data Science,Coursera,4.7,13000,50000,Intermediate,70,88,9
+Data Science,Udemy,4.4,15000,60000,Beginner,45,80,8
+Data Science,NPTEL,4.8,9000,35000,Advanced,90,92,9
+,,,,,,,,
+Data Analytics,Coursera,4.6,11000,45000,Intermediate,65,85,9
+Data Analytics,Udemy,4.4,12000,50000,Beginner,50,80,8
+,,,,,,,,
+DBMS,NPTEL,4.7,8000,30000,Advanced,70,88,9
+DBMS,GeeksforGeeks,4.3,7000,25000,Beginner,40,75,7
+DBMS,Udemy,4.4,9000,35000,Intermediate,50,80,8

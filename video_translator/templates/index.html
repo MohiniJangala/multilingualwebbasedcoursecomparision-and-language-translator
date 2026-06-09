@@ -1,0 +1,82 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+<meta charset="UTF-8">    
+<title>Course Analyzer</title>    
+<style>    
+body {    
+    margin: 0;    
+    font-family: Arial;    
+    height: 100vh;    
+    background: linear-gradient(-45deg, #141E30, #243B55, #4b6cb7, #182848);    
+    background-size: 400% 400%;    
+    animation: gradientBG 10s ease infinite;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    color: #f1f1f1;    
+}    
+@keyframes gradientBG {    
+    0% {background-position: 0% 50%;}    
+    50% {background-position: 100% 50%;}    
+    100% {background-position: 0% 50%;}    
+}    
+.container {    
+    text-align: center;    
+    background: rgba(255,255,255,0.08);    
+    padding: 40px;    
+    border-radius: 15px;    
+    backdrop-filter: blur(12px);    
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);    
+}    
+h1 {    
+    font-size: 35px;    
+}    
+select {    
+    padding: 12px;    
+    width: 280px;    
+    border-radius: 8px;    
+    border: none;    
+    margin-top: 20px;    
+    font-size: 16px;    
+}    
+button {    
+    padding: 12px 20px;    
+    border-radius: 8px;    
+    border: none;    
+    background: white;    
+    color: black;    
+    font-weight: bold;    
+    cursor: pointer;    
+    margin-top: 15px;    
+}    
+button:hover {    
+    transform: scale(1.1);    
+}    
+</style>    
+</head>    
+<body>    
+<div class="container">    
+    <h1> Course Analysis System</h1>    
+    <!-- ✅ ROUTE FIXED -->
+    <form action="/search" method="POST">    
+        <select name="course" required>
+            <option value="">-- Select Course --</option>
+            <option value="Python">Python</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            <option value="DSA">DSA</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Data Analytics">Data Analytics</option>
+            <option value="DBMS">DBMS</option>
+        </select>
+        <br>
+        <button type="submit">Search</button>
+    </form>    
+</div>    
+</body>    
+</html>

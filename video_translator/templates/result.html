@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Results</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f1f1f1;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h3 {
+    font-size: 28px;
+    color: #00e5ff;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    width: 40%;
+    border-radius: 15px;
+}
+/* NEW LINK STYLE */
+.card a {
+    color: #00e5ff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.08);
+}
+th, td {
+    padding: 12px;
+}
+tr:hover {
+    background: rgba(255,255,255,0.2);
+}
+.charts img {
+    width: 30%;
+    margin: 15px;
+    border-radius: 10px;
+}
+.back-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Results</h1>
+    <h3>{{ course }}</h3>
+</header>
+<div class="container">
+    <div class="cards">
+        <div class="card">
+            <h2>Best for Students</h2>
+            <!-- student CLICKABLE LINK -->
+            <a href="{{ student_link }}" target="_blank">
+                {{ best_student }}
+            </a>
+        </div>
+        <div class="card">
+            <h2>Best for Professors</h2>
+            <!-- professor CLICKABLE LINK -->
+            <a href="{{ professor_link }}" target="_blank">
+                {{ best_professor }}
+            </a>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Platform</th>
+            <th>Rating</th>
+            <th>Depth %</th>
+            <th>Score</th>
+        </tr>
+        {% for row in tables %}
+        <tr>
+            <td>{{ row.platform }}</td>
+            <td>{{ row.rating }}</td>
+            <td>{{ row.depth_percentage | round(2) }}%</td>
+            <td>{{ row.overall_score | round(2) }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <div class="charts">
+        <img src="{{ url_for('static', filename='rating.png') }}">
+        <img src="{{ url_for('static', filename='popularity.png') }}">
+        <img src="{{ url_for('static', filename='depth.png') }}">
+        <img src="{{ url_for('static', filename='score.png') }}">
+    </div>
+    <a href="/" class="back-btn">⬅ Back</a>
+</div>
+</body>
+</html>
+
