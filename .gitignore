@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Temporary Files
+temp_audio.wav
+*.tmp
+
+# Log Files
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
