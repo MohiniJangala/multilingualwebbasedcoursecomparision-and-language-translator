@@ -3,6 +3,9 @@ moviepy==1.0.3
 googletrans==4.0.0-rc1
 gtts
 openai-whisper
+gunicorn
+
+
 
 
 
